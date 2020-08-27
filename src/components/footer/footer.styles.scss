@@ -1,0 +1,46 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    //height: 12vh;
+    width: 100%;
+    background: linear-gradient(to top, rgb(171, 141, 63), whitesmoke);
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+
+    .options {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 1.3rem;
+        
+        
+        font-weight: 500;
+
+        .option {
+        padding: 7px 15px;
+        cursor: pointer;
+        color: black;
+        font-family: 'Raleway';
+        font-weight: 100;
+        }
+    }
+
+    .copyright {
+         display: flex;
+         margin: 0 auto;
+         padding-bottom: 5px;
+
+         .copyright-logo {
+             height: 30px;
+         }
+
+         .copyright-text {
+             color: black;
+             align-self: center;
+             font-family: 'Libre Baskerville';
+             font-size: 12px;
+         }
+    }
+}

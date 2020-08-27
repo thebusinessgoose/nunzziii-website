@@ -1,0 +1,39 @@
+.header-bar {
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to bottom, rgb(171, 141, 63), whitesmoke);
+    z-index: 1;
+    border-bottom: 1px solid rgba(black, .1);
+    
+    .logo-container {
+        height: 75%;
+  
+        .logo {
+        height: 100%;
+        }
+    }
+  
+    .options {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-size: 1.1rem;
+      margin: 0 20px;
+  
+      .option {
+        padding: 10px 10px;
+        cursor: pointer;
+        color: black;
+        font-family: 'Raleway';
+        font-weight: 100;
+      }
+    }
+
+    .cart-icon {
+      height: 28px;
+    }
+}

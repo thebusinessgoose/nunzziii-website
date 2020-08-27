@@ -1,0 +1,40 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+    .form-input {
+        margin: 10px auto;
+    }
+
+    .form-control-small {
+        width: 40%;
+        height: 1.5rem;
+        margin-right: 10px;
+    }
+
+    .form-control-big {
+        width: 65%;
+        height: 3rem;
+        margin-right: 10px;
+    }
+}
+
+.contact-icon {
+    fill: white;
+    height: 20px;
+}
+
+.contact-telephone {
+    display: flex;
+    align-items: center;
+}
+
+.contact-email {
+    display: flex;
+    align-items: center;
+}
+
+.contact-button {
+    color: white;
+    text-align: right;
+}

@@ -1,0 +1,96 @@
+.page {
+    margin: 0 50px;
+    margin-top: 10rem;
+    position: relative;
+
+    .page-heading {
+        font-family: 'Raleway';
+        font-size: 3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        color: rgba(black, .85);
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .page-body {
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+
+        .page-description {
+            font-family: 'Libre Baskerville';
+            font-size: 1.2rem;
+            padding-right: 20px;
+            line-height: 2.5rem;
+        }
+        
+        .training-video {
+            width: 55%;
+            min-width: 350px;
+            object-fit: cover;
+            border: 1px solid black;
+        }
+        
+    }
+
+    .training-programs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+
+        .training-program {
+            border: 1px solid black;
+            width: 325px;
+            min-width: 250px;
+            border-radius: 2px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            background: linear-gradient(to bottom, rgba(171, 141, 63, .75), whitesmoke);
+
+            .program-title {
+                font-family: 'Raleway';
+                font-size: 1.5rem;
+            }
+
+            .program-image {
+                width: 90%;
+                margin-bottom: 10px;
+            }
+
+            .program-details {
+                display: flex;
+                margin: 10px;
+                align-items: center;
+
+                .program-price {
+                    font-family: 'Raleway';
+                    display: flex;
+                }
+
+                .learn-more {
+                    font-family: 'Raleway';
+                    font-size: .9rem;
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    padding: 5px 10px;
+                    border: 1px solid black;
+                    margin-left: 20px;
+                    cursor: pointer;
+                    background: rgba(194, 159, 72, 0.75);
+
+                    &:hover  {
+                        background: black;
+                        color: rgba(194, 159, 72, .75);
+                    }
+                }
+            }
+
+        }
+
+    }
+}

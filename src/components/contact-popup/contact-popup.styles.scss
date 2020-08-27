@@ -1,0 +1,74 @@
+.contact {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    height:auto;
+    width: auto;
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: .3rem .75rem;
+    border-radius: 10px 10px 0 0;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(black, .8)
+}
+
+.message-icon {
+    height: 18px;
+}
+
+.button-text {
+    font-family: 'Libre Baskerville';
+    font-size: 1.1rem;
+}
+
+.contact-box {
+    background: rgba(black, .65);
+}
+
+.dialogue-title {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+
+    .contact-heading {
+        font-family: 'Libre Baskerville';
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    .sub-heading {
+        font-family: 'Libre Baskerville';
+        font-size: 1rem;
+        font-weight: 400;
+        color:white;
+    }
+}
+
+
+
+.contact-content {
+    background-color: black;
+    color: white;
+}
+
+.dialogue-actions {
+    background-color: black;
+    color: white;
+}
+
+.send-button{
+    cursor: pointer;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    font-family: 'Libre Baskerville';
+
+    .send-icon {
+        height:18px;
+        fill: white;
+    }
+}

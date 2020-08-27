@@ -1,0 +1,14 @@
+.button {
+    height:auto;
+    width: auto;
+    color: black;
+    background-color: rgb(171, 141, 63);
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    font-size: 1rem;
+    padding: .3rem .75rem;
+    border-radius: 10px 10px 0 0;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(black, .8)
+}
