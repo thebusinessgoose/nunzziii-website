@@ -17,9 +17,9 @@ const HeaderBar = ({hidden}) => (
                 <img src={logo} alt='logo' className='logo'></img>
             </Link>
 
-            <Link className='option' to='/about'>
+            {/* <Link className='option' to='/about'>
                 About
-            </Link>
+            </Link> */}
 
             <OnlineTraining />
 

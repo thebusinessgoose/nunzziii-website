@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.styles.scss';
-import video from '../../assets/Nunzziii-movie1.mov';
+import video from '../../assets/Nunzziii-movie3-short.mov';
 
 const Header = () => (
     <div className='header'>

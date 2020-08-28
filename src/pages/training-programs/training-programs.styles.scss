@@ -1,16 +1,17 @@
-.page {
-    margin: 0 50px;
-    margin-top: 10rem;
+.training-programs-page {
+    margin-top: 5rem;
     position: relative;
+    background-color: black;
+    color: white;
 
-    .page-heading {
+    .training-programs-heading {
         font-family: 'Raleway';
         font-size: 3rem;
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: .2rem;
-        color: rgba(black, .85);
-        margin: 0 auto;
+        color: rgba(white, .85);
+        text-align: center;
         margin-bottom: 25px;
     }
 
@@ -24,13 +25,15 @@
             font-size: 1.2rem;
             padding-right: 20px;
             line-height: 2.5rem;
+            padding: 10px;
         }
         
         .training-video {
             width: 55%;
             min-width: 350px;
             object-fit: cover;
-            border: 1px solid black;
+            border: 1px solid rgb(171, 141, 63);
+            margin-right: 10px;
         }
         
     }
@@ -39,10 +42,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-bottom: 15px;
+        //margin-bottom: 15px;
 
         .training-program {
-            border: 1px solid black;
+            border: 1px solid rgb(171, 141, 63);
             width: 325px;
             min-width: 250px;
             border-radius: 2px;
@@ -78,7 +81,7 @@
                     text-transform: uppercase;
                     font-weight: 300;
                     padding: 5px 10px;
-                    border: 1px solid black;
+                    border: 1px solid rgb(171, 141, 63);
                     margin-left: 20px;
                     cursor: pointer;
                     background: rgba(194, 159, 72, 0.75);

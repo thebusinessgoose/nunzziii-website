@@ -3,8 +3,8 @@ import './transformations-page.styles.scss';
 import tranformationImage from '../../assets/transformation-image.jpg';
 
 const TransformationsPage = () => (
-    <div className='page'>
-        <h2 className='page-heading'>
+    <div className='transformations-page'>
+        <h2 className='transformations-heading'>
             Check out some of the amazing transformations my clients have achieved!
         </h2>
         <div className='testimonial'>

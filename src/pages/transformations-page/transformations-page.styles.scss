@@ -1,41 +1,71 @@
-.testimonial {
-    display: flex;
-    height: 75vh;
-    margin: 100px 0;
+.transformations-page {
+    margin-top: 5rem;
+    width: 100vw;
+    background-color: black;
+    color: white;
 
-
-    .testimonial-image {
-        width: 40%;
-        border: 1px solid black;
+    .transformations-heading {
+        font-family: 'Raleway';
+        font-size: 2.5rem;
+        font-weight: 100;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1rem;
     }
 
-    .testimonial-description {
+    .testimonial {
         display: flex;
-        flex-direction: column;
-        margin: 5rem 5rem;
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 5rem;
+        border: 1px solid rgb(171, 141, 63);
 
-        .testimonial-name {
-            font-family: cursive;
-            font-size: 1.25rem;
-            margin-bottom: 15px;
-            text-align: center;
+
+        .testimonial-image {
+            width: 30%;
+            height: 30%;
+            min-width: 250px;
+            max-width: 350px;
+            max-height: 450px;
+            margin: 10px 0;
+            border: 1px solid black;
         }
 
-        .testimonial-quote {
-            font-family: cursive;
-            font-size: 1.5rem;
-            font-weight: bolder;
-        }
+        .testimonial-description {
+            width: 55%;
+            min-width: 300px;
+            display: flex;
+            flex-direction: column;
+            margin: 3rem;
+            
 
-        .testimonial-summary {
-            font-family: cursive;
-            font-size: 1.25rem;
-        }
+            .testimonial-name {
+                font-family: cursive;
+                font-size: 1.25rem;
+                margin-bottom: 15px;
+                text-align: center;
+            }
 
-        .testimonial-stats {
-            font-family: 'Raleway';
-            font-size: 1rem;
-            margin: 15px 0;
+            .testimonial-quote {
+                font-family: cursive;
+                font-size: 1.5rem;
+                font-weight: bolder;
+            }
+
+            .testimonial-summary {
+                font-family: cursive;
+                font-size: 1.25rem;
+            }
+
+            .testimonial-stats {
+                font-family: 'Raleway';
+                font-size: 1rem;
+                margin: 15px 0;
+            }
         }
     }
 }

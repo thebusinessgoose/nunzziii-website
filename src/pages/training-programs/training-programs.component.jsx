@@ -20,8 +20,8 @@ class TrainingPrograms extends React.Component {
 
     render() {
         return (
-            <div className='page'>
-                <h2 className='page-heading'>
+            <div className='training-programs-page'>
+                <h2 className='training-programs-heading'>
                     Training Programs
                 </h2>
                 <div className='page-body'>
