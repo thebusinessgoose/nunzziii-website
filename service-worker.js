@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nunzziii-website/precache-manifest.2c2508a3f8ae22a3dce1b5973e0c93d1.js"
+  "/nunzziii-website/precache-manifest.3cca421886b70f5cdba5fc6cc0190673.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2cba0c3e8c1fa12a87d5ac0480f9225f",
+    "revision": "d960fefaa6ab3a76adcc3335984881c5",
     "url": "/nunzziii-website/index.html"
   },
   {
-    "revision": "85bd68c5c5c5453d9cf6",
-    "url": "/nunzziii-website/static/css/main.c5c20e70.chunk.css"
+    "revision": "1a45e648542cc0b16b38",
+    "url": "/nunzziii-website/static/css/main.018988ad.chunk.css"
   },
   {
     "revision": "9903ed057e1d133a6608",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nunzziii-website/static/js/2.2261c3da.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85bd68c5c5c5453d9cf6",
-    "url": "/nunzziii-website/static/js/main.7a965a05.chunk.js"
+    "revision": "1a45e648542cc0b16b38",
+    "url": "/nunzziii-website/static/js/main.67cd3fa5.chunk.js"
   },
   {
     "revision": "b38ea014e077bebfcb46",
